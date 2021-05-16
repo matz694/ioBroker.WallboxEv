@@ -1,0 +1,37 @@
+{
+	"cli": true,
+	"adapterName": "wallbox-ev",
+	"title": "Wallbox Ev",
+	"description": "Adapter for Wallbox Ev compatible Wallboxes",
+	"keywords": [
+		"Wallbox"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "energy",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "matz694",
+	"authorGithub": "matz694",
+	"authorEmail": "mstroske@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.33.0"
+}

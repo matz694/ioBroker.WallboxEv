@@ -1,0 +1,74 @@
+{
+	"common": {
+		"name": "wallbox-ev",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Wallbox Ev",
+			"de": "Wallbox Ev",
+			"ru": "Wallbox Ev",
+			"pt": "Wallbox Ev",
+			"nl": "Wallbox Ev",
+			"fr": "Wallbox Ev",
+			"it": "Wallbox Ev",
+			"es": "Wallbox Ev",
+			"pl": "Wallbox Ev",
+			"zh-cn": "Wallbox Ev"
+		},
+		"desc": {
+			"en": "Adapter for Wallbox Ev compatible Wallboxes",
+			"de": "Adapter für Wallbox Ev-kompatible Wallboxen",
+			"ru": "Адаптер для Wallbox Ev совместимых настенных боксов",
+			"pt": "Adaptador para Wallbox Ev compatível com Wallboxes",
+			"nl": "Adapter voor Wallbox Ev-compatibele wallboxen",
+			"fr": "Adaptateur pour Wallboxes compatibles Wallbox Ev",
+			"it": "Adattatore per Wallbox compatibili con Wallbox Ev",
+			"es": "Adaptador para Wallboxes compatibles con Wallbox Ev",
+			"pl": "Adapter do Wallbox kompatybilnych z Wallbox Ev",
+			"zh-cn": "适用于Wallbox Ev兼容Wallbox的适配器"
+		},
+		"authors": [
+			"matz694 <mstroske@gmail.com>"
+		],
+		"keywords": [
+			"Wallbox"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"icon": "wallbox-ev.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/matz694/ioBroker.wallbox-ev/master/admin/wallbox-ev.png",
+		"readme": "https://github.com/matz694/ioBroker.wallbox-ev/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "energy",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
