@@ -1,5 +1,9 @@
 {
+    "Password": "密码",
+    "User": "用户",
     "option1": "选项1",
     "option2": "选项2",
+    "ownGetAdminCommands": "Wallbox Ev Adapater设置",
+    "ownGetAdminCommands_info": "请添加您的Wallbox.com凭据。",
     "wallbox-ev adapter settings": "wallbox-ev的适配器设置"
 }

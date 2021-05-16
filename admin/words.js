@@ -1,41 +1,12 @@
 /*global systemDictionary:true */
-"use strict";
+'use strict';
 
 systemDictionary = {
-	"wallbox-ev adapter settings": {
-		"en": "Adapter settings for wallbox-ev",
-		"de": "Adaptereinstellungen für wallbox-ev",
-		"ru": "Настройки адаптера для wallbox-ev",
-		"pt": "Configurações do adaptador para wallbox-ev",
-		"nl": "Adapterinstellingen voor wallbox-ev",
-		"fr": "Paramètres d'adaptateur pour wallbox-ev",
-		"it": "Impostazioni dell'adattatore per wallbox-ev",
-		"es": "Ajustes del adaptador para wallbox-ev",
-		"pl": "Ustawienia adaptera dla wallbox-ev",
-		"zh-cn": "wallbox-ev的适配器设置"
-	},
-	"option1": {
-		"en": "option1",
-		"de": "Option 1",
-		"ru": "Опция 1",
-		"pt": "Opção 1",
-		"nl": "Optie 1",
-		"fr": "Option 1",
-		"it": "opzione 1",
-		"es": "Opción 1",
-		"pl": "opcja 1",
-		"zh-cn": "选项1"
-	},
-	"option2": {
-		"en": "option2",
-		"de": "Option 2",
-		"ru": "option2",
-		"pt": "opção 2",
-		"nl": "Optie 2",
-		"fr": "Option 2",
-		"it": "opzione 2",
-		"es": "opcion 2",
-		"pl": "Opcja 2",
-		"zh-cn": "选项2"
-	}
+    "User": {                                        "en": "User",                                            "de": "Benutzer",                                        "ru": "Пользователь",                                    "pt": "Do utilizador",                                   "nl": "Gebruiker",                                       "fr": "Utilisateur",                                     "it": "Utente",                                          "es": "Usuario",                                         "pl": "Użytkownik",                                      "zh-cn": "用户"},
+    "Password": {                                    "en": "Password",                                        "de": "Passwort",                                        "ru": "Пароль",                                          "pt": "Senha",                                           "nl": "Wachtwoord",                                      "fr": "Mot de passe",                                    "it": "Parola d'ordine",                                 "es": "Contraseña",                                      "pl": "Hasło",                                           "zh-cn": "密码"},
+    "wallbox-ev adapter settings": {                 "en": "Adapter settings for wallbox-ev",                 "de": "Adaptereinstellungen für wallbox-ev",             "ru": "Настройки адаптера для wallbox-ev",               "pt": "Configurações do adaptador para wallbox-ev",      "nl": "Adapterinstellingen voor wallbox-ev",             "fr": "Paramètres d'adaptateur pour wallbox-ev",         "it": "Impostazioni dell'adattatore per wallbox-ev",     "es": "Ajustes del adaptador para wallbox-ev",           "pl": "Ustawienia adaptera dla wallbox-ev",              "zh-cn": "wallbox-ev的适配器设置"},
+    "ownGetAdminCommands_info": {                    "en": "Please add your Wallbox.com credentials.",        "de": "Bitte fügen Sie Ihre Wallbox.com-Anmeldeinformationen hinzu.", "ru": "Пожалуйста, добавьте свои учетные данные Wallbox.com.", "pt": "Adicione suas credenciais do Wallbox.com.",       "nl": "Voeg uw Wallbox.com-inloggegevens toe.",          "fr": "Veuillez ajouter vos identifiants Wallbox.com.",  "it": "Aggiungi le tue credenziali Wallbox.com.",        "es": "Agregue sus credenciales de Wallbox.com.",        "pl": "Dodaj swoje dane logowania do Wallbox.com.",      "zh-cn": "请添加您的Wallbox.com凭据。"},
+    "ownGetAdminCommands": {                         "en": "Wallbox Ev Adapater Settings",                    "de": "Wallbox Ev Adapater-Einstellungen",               "ru": "Настройки Wallbox Ev Adapater",                   "pt": "Configurações do adaptador Wallbox Ev",           "nl": "Wallbox Ev Adapater-instellingen",                "fr": "Paramètres de l'adaptateur Wallbox Ev",           "it": "Impostazioni Wallbox Ev Adapater",                "es": "Configuración de Wallbox Ev Adapater",            "pl": "Ustawienia Wallbox Ev Adapater",                  "zh-cn": "Wallbox Ev Adapater设置"},
+    "option1": {                                     "de": "Option 1",                                        "ru": "Опция 1",                                         "pt": "Opção 1",                                         "nl": "Optie 1",                                         "fr": "Option 1",                                        "it": "opzione 1",                                       "es": "Opción 1",                                        "pl": "opcja 1",                                         "zh-cn": "选项1"},
+    "option2": {                                     "de": "Option 2",                                        "ru": "option2",                                         "pt": "opção 2",                                         "nl": "Optie 2",                                         "fr": "Option 2",                                        "it": "opzione 2",                                       "es": "opcion 2",                                        "pl": "Opcja 2",                                         "zh-cn": "选项2"},
 };

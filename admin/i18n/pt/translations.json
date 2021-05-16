@@ -1,5 +1,9 @@
 {
+    "Password": "Senha",
+    "User": "Do utilizador",
     "option1": "Opção 1",
     "option2": "opção 2",
+    "ownGetAdminCommands": "Configurações do adaptador Wallbox Ev",
+    "ownGetAdminCommands_info": "Adicione suas credenciais do Wallbox.com.",
     "wallbox-ev adapter settings": "Configurações do adaptador para wallbox-ev"
 }

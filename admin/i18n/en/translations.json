@@ -1,5 +1,9 @@
 {
-    "option1": "option1",
-    "option2": "option2",
+    "Password": "Password",
+    "User": "User",
+    "option1": "",
+    "option2": "",
+    "ownGetAdminCommands": "Wallbox Ev Adapater Settings",
+    "ownGetAdminCommands_info": "Please add your Wallbox.com credentials.",
     "wallbox-ev adapter settings": "Adapter settings for wallbox-ev"
 }
