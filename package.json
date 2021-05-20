@@ -1,6 +1,6 @@
 {
   "name": "iobroker.wallbox-ev",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adapter for Wallbox Ev compatible Wallboxes",
   "author": {
     "name": "matz694",

@@ -1,9 +1,9 @@
 {
     "common": {
         "name": "wallbox-ev",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "news": {
-            "0.0.1": {
+            "0.0.2": {
                 "en": "initial release",
                 "de": "Erstveröffentlichung",
                 "ru": "Начальная версия",
@@ -49,7 +49,7 @@
         "license": "MIT",
         "platform": "Javascript/Node.js",
         "icon": "wallbox-ev.png",
-        "enabled": true,
+        "enabled": false,
         "extIcon": "https://raw.githubusercontent.com/matz694/ioBroker.wallbox-ev/master/admin/wallbox-ev.png",
         "readme": "https://github.com/matz694/ioBroker.wallbox-ev/blob/master/README.md",
         "loglevel": "info",
@@ -66,9 +66,23 @@
         ]
     },
     "native": {
-        "option1": true,
-        "option2": "42"
+        "user": "",
+        "password": ""
     },
     "objects": [],
-    "instanceObjects": []
+    "instanceObjects": [{
+        "_id": "info.connection",
+        "type": "state",
+        "common": {
+            "role": "indicator.connected",
+            "name": "If communication with Wallbox Ev works",
+            "type": "boolean",
+            "read": true,
+            "write": false,
+            "def": false
+        },
+        "native": {}
+    }
+
+    ]
 }
